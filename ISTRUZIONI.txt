@@ -1,0 +1,14 @@
+NON INCOLLARE PIU CODICE A MANO.
+
+Su GitHub:
+1. Cancella i vecchi file package.json, server.js, index.html, style.css e app.js.
+2. Carica i 5 file omonimi presenti in questa cartella.
+3. Conferma il commit.
+4. Attendi il deploy verde su Render.
+5. Apri il sito in una finestra anonima, oppure premi Command+Shift+R.
+
+Test:
+- Incolla qualunque URL valido.
+- Premi Continua.
+- Compariranno i campi Titolo, Artista e Testo.
+- Incolla il testo e premi Analizza il testo.

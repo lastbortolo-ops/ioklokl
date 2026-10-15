@@ -1,10 +1,8 @@
 {
   "name": "inter-music-library",
-  "version": "1.0.0",
-  "description": "Web app per l'analisi strategica di canzoni e la selezione di frasi candidate",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
