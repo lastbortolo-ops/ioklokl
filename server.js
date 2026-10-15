@@ -23,4 +23,8 @@ app.post('/api/analyze',async(req,res)=>{
   {label:'Frase candidata 10',score:6.4,reason:'Risonanza'}]
  });
 });
-app.listen(3000,()=>console.log('Inter Music Library: http://localhost:3000'));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Inter Music Library avviata sulla porta ${PORT}`);
+});
