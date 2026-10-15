@@ -1,8 +1,17 @@
 {
-  "name": "inter-music-library-fullstack",
-  "version": "0.1.0",
+  "name": "inter-music-library",
+  "version": "1.0.0",
+  "description": "Web app per l'analisi strategica di canzoni e la selezione di frasi candidate",
   "private": true,
   "type": "module",
-  "scripts": {"start": "node server.js"},
-  "dependencies": {"express": "^4.21.2"}
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20 <26"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
 }
