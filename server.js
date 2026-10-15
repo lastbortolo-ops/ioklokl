@@ -1,6 +1,17 @@
-if (url !== demoUrl) {
-  return res.status(422).json({
-    error:
-      "Connettore non disponibile per questa fonte nella prova. Usa il link demo di Goya.",
-  });
+{
+  "name": "inter-music-library",
+  "version": "1.0.0",
+  "description": "Web app per l'analisi strategica di canzoni e la selezione di frasi candidate",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
